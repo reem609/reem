@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header .logo img {
+    width: 50px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: url('background.jpg') center/cover no-repeat;
+    text-align: left;
+}
+
+.hero .text-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero .text-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .text-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .car-image img {
+    width: 80%;
+}
+
+.specs {
+    padding: 30px;
+    text-align: center;
+}
+
+.specs h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.specs p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.specs ul {
+    list-style: none;
+}
+
+.specs ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}

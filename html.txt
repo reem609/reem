@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurboTweak - Car Tuning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="text-content">
+                <h1>Elevate Your Drive to Extraordinary Heights</h1>
+                <p>Crafting Power, Performance, and Style for the Ultimate Driving Experience</p>
+                <button>Get Started</button>
+            </div>
+            <div class="car-image">
+                <img src="rolls-royce.jpg" alt="Black Rolls Royce">
+            </div>
+        </section>
+
+        <section id="specs" class="specs">
+            <h2>Specifications</h2>
+            <p>The luxury Rolls Royce equipped with advanced powertrain, unmatched comfort, and elegant design, delivering extraordinary performance.</p>
+            <ul>
+                <li>Engine Power: 563 hp</li>
+                <li>Top Speed: 250 km/h</li>
+                <li>0-100 km/h in 4.8 seconds</li>
+                <li>Luxurious Interior with Advanced Features</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TurboTweak. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
